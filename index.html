@@ -6,8 +6,8 @@
   <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <div id="default-app-theme" class="default-app-theme">
-        <header class="SiteHeader">
+    <div class="default-app-theme">
+        <div class="SiteHeader">
             <div class="SiteHeader_wrapper">
                 <div class="SiteHeader_container">
                     <div class="SiteHeader-logo-wrapper">
@@ -43,11 +43,11 @@
                                 <span>Resources</span>
                             </div>
                             <div class="header-button-wrapper">
-                                <button class="signup-button xs disable-animation has-arrow" data-style="zoom-in" data-size="xl" type="button">
+                                <button class="signup-button-with-arrow ladda-button basic-blue xs">
                                     <span class="signup-text">Get Started</span>
                                     <span class="arrow-wrapper xs signup">
-                                        <svg width="10" height="14" viewBox="0 0 9 7" xmlns="http://www.w3.org/2000/svg" class="site-header-item-icon">
-                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M4.628.616a.5.5 0 1 0-.64.768L6.203 3.23H.5a.5.5 0 0 0 0 1h5.612L3.988 6a.5.5 0 1 0 .64.769l3.23-2.693a.5.5 0 0 0 0-.768L4.628.616z"></path>
+                                        <svg width="10" height="14" viewBox="0 0 10 7" xmlns="http://www.w3.org/2000/svg" class="site-header-item-icon">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M 4.628 0.616 a 0.5 0.5 0 1 0 -0.64 0.768 L 6.203 3.23 H 0.5 a 0.5 0.5 0 0 0 0 1 h 5.612 L 3.988 6 a 0.5 0.5 0 1 0 0.64 0.769 l 3.23 -2.693 a 0.5 0.5 0 0 0 0 -0.768 L 4.628 0.616 Z"></path>
                                         </svg>
                                     </span>
                                 </button>
@@ -56,100 +56,102 @@
                     </nav>
                 </div>
             </div>
-        </header>
+        </div>
         <main id="main">
-            <div class="base-layout-component-1">
-                <div class="stars-canvas"></div>
-                <div class="paragraph-wrapper">
-                    <div class="title">
-                        <h1 class="core-title xxl">A platform built for
-                        <br>
-                        a new way to safeguard your email
-                        </h1>
-                    </div>
-                    <div class="body">
-                        <h2 class="paragraph-body lg">
-                        What would you like to achieve with SafeClick email?
-                        </h2>
-                    </div>
-                </div>
-                <div class="square-tags-grid-component">
-                    <div class="square-tags-and-button-wrapper flex-dir-col">
-                        <div class="choice-group">
-                            <div class="square-tag-component selectable-cluster">
-                                <div class="checkbox">
-                                    <svg viewBox="0 0 20 20" fill="currentColor" width="20" height="20">
-                                        <path d="M8.53033 14.2478L8 13.7175L7.46967 14.2478C7.76256 14.5407 8.23744 14.5407 8.53033 14.2478ZM8 12.6569L4.53033 9.18718C4.23744 8.89429 3.76256 8.89429 3.46967 9.18718C3.17678 9.48008 3.17678 9.95495 3.46967 10.2478L7.46967 14.2478L8 13.7175L8.53033 14.2478L16.2478 6.53033C16.5407 6.23743 16.5407 5.76256 16.2478 5.46967C15.955 5.17677 15.4801 5.17677 15.1872 5.46967L8 12.6569Z"
-                                        fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
-                                    </svg>
-                                </div>
-                                <div class="seletable-image">
-                                    <picture class="picture-component selectable-picture">
-                                        <img></picture>
-                                    </picture>
-                                </div>
-                                <div class="square-tags-text">
-                                    End-to-End Encryption
-                                </div>
-                            </div>
-                            <div class="square-tag-component selectable-cluster">
-                                <div class="checkbox">
-                                    <svg viewBox="0 0 20 20" fill="currentColor" width="20" height="20">
-                                        <path d="M8.53033 14.2478L8 13.7175L7.46967 14.2478C7.76256 14.5407 8.23744 14.5407 8.53033 14.2478ZM8 12.6569L4.53033 9.18718C4.23744 8.89429 3.76256 8.89429 3.46967 9.18718C3.17678 9.48008 3.17678 9.95495 3.46967 10.2478L7.46967 14.2478L8 13.7175L8.53033 14.2478L16.2478 6.53033C16.5407 6.23743 16.5407 5.76256 16.2478 5.46967C15.955 5.17677 15.4801 5.17677 15.1872 5.46967L8 12.6569Z"
-                                        fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
-                                    </svg>
-                                </div>
-                                <div class="seletable-image">
-                                    <picture class="picture-component selectable-picture">
-                                        <img></picture>
-                                    </picture>
-                                </div>
-                                <div class="square-tags-text">
-                                    Spam filtering
-                                </div>
-                            </div>
-                            <div class="square-tag-component selectable-cluster">
-                                <div class="checkbox">
-                                    <svg viewBox="0 0 20 20" fill="currentColor" width="20" height="20">
-                                        <path d="M8.53033 14.2478L8 13.7175L7.46967 14.2478C7.76256 14.5407 8.23744 14.5407 8.53033 14.2478ZM8 12.6569L4.53033 9.18718C4.23744 8.89429 3.76256 8.89429 3.46967 9.18718C3.17678 9.48008 3.17678 9.95495 3.46967 10.2478L7.46967 14.2478L8 13.7175L8.53033 14.2478L16.2478 6.53033C16.5407 6.23743 16.5407 5.76256 16.2478 5.46967C15.955 5.17677 15.4801 5.17677 15.1872 5.46967L8 12.6569Z"
-                                        fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
-                                    </svg>
-                                </div>
-                                <div class="seletable-image">
-                                    <picture class="picture-component selectable-picture">
-                                        <img></picture>
-                                    </picture>
-                                </div>
-                                <div class="square-tags-text">
-                                    Phishing Prevention
-                                </div>
-                            </div>
-                            <div class="square-tag-component selectable-cluster">
-                                <div class="checkbox">
-                                    <svg viewBox="0 0 20 20" fill="currentColor" width="20" height="20">
-                                        <path d="M8.53033 14.2478L8 13.7175L7.46967 14.2478C7.76256 14.5407 8.23744 14.5407 8.53033 14.2478ZM8 12.6569L4.53033 9.18718C4.23744 8.89429 3.76256 8.89429 3.46967 9.18718C3.17678 9.48008 3.17678 9.95495 3.46967 10.2478L7.46967 14.2478L8 13.7175L8.53033 14.2478L16.2478 6.53033C16.5407 6.23743 16.5407 5.76256 16.2478 5.46967C15.955 5.17677 15.4801 5.17677 15.1872 5.46967L8 12.6569Z"
-                                        fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
-                                    </svg>
-                                </div>
-                                <div class="seletable-image">
-                                    <picture class="picture-component selectable-picture">
-                                        <img></picture>
-                                    </picture>
-                                </div>
-                                <div class="square-tags-text">
-                                    Data loss prevention 
-                                </div>
-                            </div>
+            <div class="base-layout-component-1" style="color: rgb(255, 255, 255); background: linear-gradient(rgba(10, 185, 168, 0.868) -10%, rgb(255, 255, 255) 100%); padding-top: 40px;">
+                <div class="component-1-wrapper">
+                    <div class="stars-canvas"></div>
+                    <div class="paragraph-wrapper align-center">
+                        <div class="title" style="max-width: min(880px,1440px); margin-top:0px;">
+                            <h1 class="core-title xxl">A platform built to
+                            <br>
+                            safeguard your email
+                            </h1>
                         </div>
-                        <div class="button-wraper">
-                            <div class="signup-button-wrapper">
-                                <div class="button-additional-text-below">
-                                    <button class="ladda-buttons signup-button has-arrow" data-size="xl" type="button">
-                                        <span class="ladda-label">Get Started</span>
-                                        <span class="arrow-wrapper">
-                                    </button>
+                        <div class="body">
+                            <h2 class="paragraph-body lg">
+                            What would you like to achieve with SafeClick email security system?
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="square-tags-grid-component">
+                        <div class="square-tags-and-button-wrapper flex-dir-col">
+                            <div class="choice-group">
+                                <div class="square-tag-component selectable-cluster">
+                                    <div class="checkbox">
+                                        <svg viewBox="0 0 20 20" fill="currentColor" width="20" height="20">
+                                            <path d="M8.53033 14.2478L8 13.7175L7.46967 14.2478C7.76256 14.5407 8.23744 14.5407 8.53033 14.2478ZM8 12.6569L4.53033 9.18718C4.23744 8.89429 3.76256 8.89429 3.46967 9.18718C3.17678 9.48008 3.17678 9.95495 3.46967 10.2478L7.46967 14.2478L8 13.7175L8.53033 14.2478L16.2478 6.53033C16.5407 6.23743 16.5407 5.76256 16.2478 5.46967C15.955 5.17677 15.4801 5.17677 15.1872 5.46967L8 12.6569Z"
+                                            fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="seletable-image">
+                                        <picture class="picture-component selectable-picture">
+                                            <img></picture>
+                                        </picture>
+                                    </div>
+                                    <div class="square-tags-text">
+                                        End-to-End Encryption
+                                    </div>
+                                </div>
+                                <div class="square-tag-component selectable-cluster">
+                                    <div class="checkbox">
+                                        <svg viewBox="0 0 20 20" fill="currentColor" width="20" height="20">
+                                            <path d="M8.53033 14.2478L8 13.7175L7.46967 14.2478C7.76256 14.5407 8.23744 14.5407 8.53033 14.2478ZM8 12.6569L4.53033 9.18718C4.23744 8.89429 3.76256 8.89429 3.46967 9.18718C3.17678 9.48008 3.17678 9.95495 3.46967 10.2478L7.46967 14.2478L8 13.7175L8.53033 14.2478L16.2478 6.53033C16.5407 6.23743 16.5407 5.76256 16.2478 5.46967C15.955 5.17677 15.4801 5.17677 15.1872 5.46967L8 12.6569Z"
+                                            fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="seletable-image">
+                                        <picture class="picture-component selectable-picture">
+                                            <img></picture>
+                                        </picture>
+                                    </div>
+                                    <div class="square-tags-text">
+                                        Spam filtering
+                                    </div>
+                                </div>
+                                <div class="square-tag-component selectable-cluster">
+                                    <div class="checkbox">
+                                        <svg viewBox="0 0 20 20" fill="currentColor" width="20" height="20">
+                                            <path d="M8.53033 14.2478L8 13.7175L7.46967 14.2478C7.76256 14.5407 8.23744 14.5407 8.53033 14.2478ZM8 12.6569L4.53033 9.18718C4.23744 8.89429 3.76256 8.89429 3.46967 9.18718C3.17678 9.48008 3.17678 9.95495 3.46967 10.2478L7.46967 14.2478L8 13.7175L8.53033 14.2478L16.2478 6.53033C16.5407 6.23743 16.5407 5.76256 16.2478 5.46967C15.955 5.17677 15.4801 5.17677 15.1872 5.46967L8 12.6569Z"
+                                            fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="seletable-image">
+                                        <picture class="picture-component selectable-picture">
+                                            <img></picture>
+                                        </picture>
+                                    </div>
+                                    <div class="square-tags-text">
+                                        Phishing Prevention
+                                    </div>
+                                </div>
+                                <div class="square-tag-component selectable-cluster">
+                                    <div class="checkbox">
+                                        <svg viewBox="0 0 20 20" fill="currentColor" width="20" height="20">
+                                            <path d="M8.53033 14.2478L8 13.7175L7.46967 14.2478C7.76256 14.5407 8.23744 14.5407 8.53033 14.2478ZM8 12.6569L4.53033 9.18718C4.23744 8.89429 3.76256 8.89429 3.46967 9.18718C3.17678 9.48008 3.17678 9.95495 3.46967 10.2478L7.46967 14.2478L8 13.7175L8.53033 14.2478L16.2478 6.53033C16.5407 6.23743 16.5407 5.76256 16.2478 5.46967C15.955 5.17677 15.4801 5.17677 15.1872 5.46967L8 12.6569Z"
+                                            fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="seletable-image">
+                                        <picture class="picture-component selectable-picture">
+                                            <img></picture>
+                                        </picture>
+                                    </div>
+                                    <div class="square-tags-text">
+                                        Data loss prevention 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="button-wraper">
+                                <div class="signup-button-wrapper">
                                     <div class="button-additional-text-below">
-                                        Unlimited time on Free plan * Refer others for bonus
+                                        <button class="ladda-buttons signup-button has-arrow" data-size="xl" type="button">
+                                            <span class="ladda-label">Get Started</span>
+                                            <span class="arrow-wrapper">
+                                        </button>
+                                        <div class="button-additional-text-below">
+                                            Unlimited time on Free plan * Refer others for bonus
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -358,6 +360,9 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="base-layout-component-5 base-footer">
+                <div class="footer-desktop-wrapper"></div>
             </div>
         </main>
     </div>
